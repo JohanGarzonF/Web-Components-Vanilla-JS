@@ -1,0 +1,53 @@
+:host {
+  width: 100%;
+  height: 100%;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 60px;
+  background-color: #aaa;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.nav-bar ul {
+  display: inline-flex;
+}
+
+.nav-bar ul li {
+  margin-left: 10px;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.nav1 {
+  background-color: #5252c7;
+}
+
+.nav2 {
+  background-color: #52c76b;
+}
+
+.nav3 {
+  background-color: #8d64ec;
+}
+
+.nav4 {
+  background-color: #c75252;
+}
+
+.nav5 {
+  background-color: #34938e;
+}
